@@ -187,8 +187,8 @@ function networkUp() {
 
   if [ "$CONSENSUS_TYPE" == "etcdraft" ]; then
     sleep 1
-    echo "Sleeping 15s to allow $CONSENSUS_TYPE cluster to complete booting"
-    sleep 14
+    echo "Sleeping 60s to allow $CONSENSUS_TYPE cluster to complete booting"
+    sleep 59
   fi
 
   # now run the end to end script
